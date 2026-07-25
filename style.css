@@ -145,15 +145,25 @@ header{
 
 
 header{
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .logo-section{
-    position: absolute;
-    top: 10px;
-    left: 10020px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
+.logo{
+    width: 80px;
+    height: auto;
+}
 header h1{
 
     font-family:'Orbitron',sans-serif;
