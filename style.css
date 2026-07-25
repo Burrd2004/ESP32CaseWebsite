@@ -149,9 +149,14 @@ header{
 }
 
 .logo-section{
-    position: absolute;
-    top: 10px;
-    left: 10020px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 80px;
+    height: auto;
 }
 
 header h1{
